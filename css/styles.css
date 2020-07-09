@@ -1,0 +1,308 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+#title{
+    background-color:#ff4c68;
+}
+
+/*Container all the site*/ 
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/*Navbar*/
+.navbar{
+    padding-left: 0;
+    padding-bottom: 4.5rem;
+}
+
+#title li{
+    margin: 0 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.225em;
+}
+
+/*Style top*/
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 465px) {
+   #title h1{
+        text-align: center;
+        font-size: 2.5em;   
+   }
+
+   .button-title-style{
+        position: relative;
+        left: 22%;
+    }
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 1.5;
+    
+}
+
+/*Icons style title*/
+.button-title-style{
+    margin: 5% 3% 5% 0%
+}
+
+.space-icon{
+    margin-right: 5px;
+}
+
+/*Title img*/
+
+.title-img{
+    width: 50%;
+    transform: rotate(18deg);
+    z-index: 0;
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+
+
+/*
+@media only screen and (max-width: 300px) {
+    .title-img{
+        width: 100%;
+    }
+}*/
+
+
+@media (min-width: 504px) and (max-width: 1000px){ 
+    .title-img{
+        width: 60%;
+        left: 2%;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    #title li{
+        text-align: left;
+    }
+}
+
+/*max-width funciona da seguinte forma: 
+Todo codigo a baixo vai funcionar quando 
+a tela estiver a baixo de 600 px*/
+
+
+/*min-width:
+funciona com a lógica de que 
+um número X de pixel deve ser verdadeiro para 
+o que está a baixo acontecer*/
+
+
+/*Features*/
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+  
+}
+
+#features h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    color: #2c2c2c;
+}
+
+#features p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.0em;
+    text-align: center;
+    color: #8f8f8f;
+   
+}
+
+.feature-box{
+    text-align: center;
+}
+
+.feature-icon {
+    color: #ff4c68;
+}
+
+.feature-icon:hover{
+    color: #ff1e40;
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+.icon-style{
+    margin-bottom: 1.225rem;
+}
+
+/*Testimonial section*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+}
+
+
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+#testimonials em{
+    color: #fff;
+}
+
+#testimonials span{
+    font-size: 2.225em;
+}
+
+@media only screen and (max-width: 435px) {
+    #testimonials h2{
+        font-size: 1.0em;
+    }
+}
+
+/*Press section*/
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img{
+    width: 15%;
+    margin: 20px 20px 20px;
+    -webkit-filter: grayscale(100%);  
+}
+
+#press img:hover{
+    -webkit-filter: grayscale(0%); 
+    transition: 0.3s; 
+}
+
+@media only screen and (max-width: 435px) {
+    #press img{
+        width: 25%;
+    }
+}
+
+/*Pricing section*/
+
+.card-pricing-style h2{
+    color: #000;
+}
+
+.card-pricing-style p{
+    line-height: 0.8em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+#pricing h2{
+    color: #000;
+    font-size: 2.5em;
+}
+
+#pricing p{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/*cta section*/
+
+#cta{
+    background-color:#ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#cta h3{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 4em;
+}
+
+/*Footer section*/
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-icons {
+    margin: 20px 10px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.twitter-icon:hover{
+    color: rgb(29, 161, 242);
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.facebook-icon:hover{
+    color: #2851A3;
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.instagram-icon:hover{
+    color: #dd4bf0;
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.email-icon:hover{
+    color: rgb(255, 59, 59);
+    background-size: 2px;
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
