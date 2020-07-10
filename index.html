@@ -191,17 +191,14 @@
                 </div>
             </div>
         </div>
-
-
-
     </section>
 
     <!--Call to Action-->
     <section id="cta">
         <h3>Find the True Love of Your Dog's Life Today</h3>
-        <button class="btn btn-dark btn-lg button-title-style" type="button"><i
+        <button class="btn btn-dark btn-lg button-cta" type="button"><i
                 class="fab fa-google-play space-icon"></i>Download</button>
-        <button class="btn btn-outline-light btn-lg button-title-style" type="button"><i
+        <button class="btn btn-outline-light btn-lg button-cta" type="button"><i
                 class="fab fa-apple space-icon"></i>Download</button>
     </section>
 
@@ -211,7 +208,7 @@
         <i class="fab fa-facebook-f footer-icons facebook-icon"></i>
         <i class="fab fa-instagram footer-icons instagram-icon"></i>
         <i class="fas fa-envelope footer-icons email-icon"></i>
-        <p>© Copyright 2020 TinDog</p>
+        <p>© Copyright 2018 TinDog</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -223,6 +220,18 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+        
+    
+
+    <script>$('.nav a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            var id = $(this).attr('href'),
+                targetOffset = $(id).offset().top;
+
+            $('html, body').animate({
+                scrollTop: targetOffset - 100
+            }, 500);
+        });</script>
 </body>
 
 </html>

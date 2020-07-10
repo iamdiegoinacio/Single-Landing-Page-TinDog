@@ -98,16 +98,6 @@ h2{
     }
 }
 
-/*max-width funciona da seguinte forma: 
-Todo codigo a baixo vai funcionar quando 
-a tela estiver a baixo de 600 px*/
-
-
-/*min-width:
-funciona com a lógica de que 
-um número X de pixel deve ser verdadeiro para 
-o que está a baixo acontecer*/
-
 
 /*Features*/
 
@@ -257,6 +247,19 @@ o que está a baixo acontecer*/
     font-weight: 800;
     font-size: 4em;
 }
+
+@media (min-width: 401px){
+    .button-cta{
+        margin: 5% 3% 5% 0%;
+    }
+}
+
+@media (max-width: 400px){
+    .button-cta{
+        margin: 10px 5px;
+    }
+}
+
 
 /*Footer section*/
 
