@@ -4,4 +4,8 @@
 
 <a href="https://iamdiegoinacio.github.io/TinDog-SinglePage">Visualizar página</a>
 
-[Gif de preview da single landing page TinDog](/git-img/SingleLandingPageTingDogTopo.gif)
+<div align="center">
+  <img src="/git-img/SingleLandingPageTingDogTopo.gif" alt="Gif de preview da single landing page TinDog" width="1180"/>
+</div>
+
+
