@@ -1,6 +1,6 @@
 # TinDog Single Landing Page 
 
-## Preview da Single Landing Page TinDog 
+## Preview
 
 ### Versão Mobile
 <div align="center">
