@@ -18,7 +18,7 @@
 </div>
 
 ## Visualizar página 
-<a href="https://iamdiegoinacio.github.io/TinDog-SinglePage">Visualizar página</a>
+<a href="https://iamdiegogomes.github.io/Single-Landing-Page-TinDog/">Visualizar página</a>
 
 ## Tecnologias utilizadas
 :heavy_check_mark: HTML5<br>
